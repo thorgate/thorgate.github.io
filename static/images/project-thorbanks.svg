@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="337px" height="244px" viewBox="0 0 337 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Illustration - Bank</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Illustrations" transform="translate(-88.000000, -495.000000)">
+            <g id="Illustration---Bank" transform="translate(88.000000, 495.000000)">
+                <g id="Group-22">
+                    <g id="Group" transform="translate(40.000000, 193.000000)" fill="#F0F0F0">
+                        <rect id="Rectangle-12" x="91" y="0" width="75" height="31" rx="2"></rect>
+                        <rect id="Rectangle-12-Copy" x="182" y="0" width="75" height="31" rx="2"></rect>
+                        <rect id="Rectangle-12-Copy-2" x="0" y="0" width="75" height="31" rx="2"></rect>
+                    </g>
+                    <rect id="Rectangle-7" stroke="#F2F2F2" stroke-width="2" x="0" y="0" width="337" height="244" rx="6"></rect>
+                    <g id="Group-2" transform="translate(95.000000, 30.000000)">
+                        <rect id="Rectangle-8" fill="#D8D8D8" x="0" y="99" width="146" height="12" rx="2"></rect>
+                        <rect id="Rectangle-8-Copy" fill="#D8D8D8" opacity="0.4" x="29" y="121" width="88" height="6" rx="2"></rect>
+                        <polygon id="Triangle-1" fill="#D8D8D8" opacity="0.4" transform="translate(73.000000, 139.000000) rotate(-180.000000) translate(-73.000000, -139.000000) " points="73 135 81 143 65 143 "></polygon>
+                        <circle id="Oval-5" stroke="#D8D8D8" stroke-width="2" opacity="0.4" cx="74.5" cy="39.5" r="39.5"></circle>
+                        <path d="M53,38.9588425 L57.6037715,38.9588425 C57.5201571,39.4715434 57.5201571,39.98679 57.5201571,40.5 C57.5201571,41.01321 57.5201571,41.5264201 57.6037715,42.0431941 L54.3393242,42.0431941 L53,45.1260183 L58.1054582,45.1260183 C60.1993032,53.0054216 67.3558038,59 75.6027761,59 C80.1657358,59 84.4350495,57.1604882 87.658685,54.1611625 L87.658685,49.7082508 C84.8939335,53.4748459 80.5001936,55.9171758 75.6027761,55.9171758 C68.9051595,55.9171758 63.1701045,51.3787291 61.2449815,45.1260183 L81.6314771,45.1260183 L82.9693082,42.0431941 L60.6173754,42.0431941 C60.533761,41.5284566 60.533761,41.01321 60.533761,40.5 C60.533761,40.072325 60.533761,39.4715434 60.6173754,38.9588425 L84.3106232,38.9588425 L85.6504452,35.8739817 L61.2449815,35.8739817 C63.1292927,29.7088425 68.8215451,25.0848607 75.6047669,25.0848607 C80.8794448,25.0848607 84.8979152,27.5251541 87.6606758,31.2520365 L89,28.2109616 C85.6504452,24.3985441 80.8794448,22 75.6047669,22 C67.3169828,22 60.1584914,28.0816408 58.107449,35.8739817 L54.3393242,35.8739817 L53,38.9588425 Z" id="Page-1" fill="#D8D8D8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
