@@ -815,3 +815,11 @@ $pre-bg:                      #f7f7f9 !default;
 $pre-color:                   $gray-dark !default;
 $pre-border-color:            #ccc !default;
 $pre-scrollable-max-height:   340px !default;
+
+
+// Footer
+$screen-md:                         992px;
+$font-open-sans:                    'Open Sans', sans-serif;
+$color-footer-shadow:               rgba(0,0,0,0.03);
+$color-footer-gray-border:          rgba(139, 151, 166, .2);
+$color-footer-gray:                 rgba(139, 151, 166, 1);
