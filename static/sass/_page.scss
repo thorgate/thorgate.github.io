@@ -43,8 +43,8 @@ header {
 
 
 .thorgate-footer {
-    margin-top: -12%;
-    padding: 12% 0 0 0;
+    margin-top: -20%;
+    padding: 20% 0 0 0;
     color: $color-footer-white;
     font-weight: 300;
     text-align: center;
@@ -53,7 +53,6 @@ header {
     background-size: 105% auto;
     background-position-x: 50%;
     width: 100%;
-    height: 471px;
     font-family: $font-open-sans;
 
     &:after {
@@ -62,16 +61,23 @@ header {
         clear: both;
     }
 
+    .thorgate-footer-background {
+        background: #404040;
+        padding: 90px 0;
+
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+
     .container {
         width: 100%;
         max-width: 990px;
         padding: 0 30px;
         margin: 0 auto;
         opacity: .8;
-    }
-
-    .container {
-        padding-top: 180px;
     }
 
     .tf-left {
