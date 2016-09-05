@@ -1302,8 +1302,16 @@ header hr {
 }
 
 .thorgate-footer {
+  margin-top: -20%;
+  padding: 20% 0 0 0;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  background: url("../images/dark-triangle.svg");
+  background-repeat: no-repeat;
+  background-size: 105% auto;
+  background-position-x: 50%;
   width: 100%;
-  padding: 25px 0;
   font-family: "Open Sans", sans-serif;
 }
 .thorgate-footer:after {
@@ -1311,16 +1319,21 @@ header hr {
   display: block;
   clear: both;
 }
-@media (min-width: 992px) {
-  .thorgate-footer {
-    padding: 28px 0;
-  }
+.thorgate-footer .thorgate-footer-background {
+  background: #404040;
+  padding: 90px 0;
+}
+.thorgate-footer .thorgate-footer-background:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 .thorgate-footer .container {
   width: 100%;
   max-width: 990px;
   padding: 0 30px;
   margin: 0 auto;
+  opacity: .8;
 }
 .thorgate-footer .tf-left {
   margin-bottom: 25px;
@@ -1341,6 +1354,7 @@ header hr {
   width: 35px;
   height: 35px;
   background-image: url("../images/footer/logo.svg");
+  background-size: cover;
   display: block;
   margin: 0 auto 10px auto;
 }
@@ -1352,7 +1366,7 @@ header hr {
 }
 .thorgate-footer .tf-left .thorgate-copyright {
   text-align: center;
-  color: #8b97a6;
+  color: white;
   font-size: 15px;
   line-height: 28px;
   margin: 0;
@@ -1395,7 +1409,7 @@ header hr {
   }
 }
 .thorgate-footer .tf-right .footer-links li a {
-  color: #8b97a6;
+  color: white;
   font-size: 15px;
   line-height: 28px;
   text-decoration: none;
@@ -1439,14 +1453,14 @@ header hr {
   text-indent: -99999px;
   width: 36px;
   height: 36px;
-  border: 1px solid rgba(139, 151, 166, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 18px;
   display: block;
   transition: border .35s ease-in-out;
   background-repeat: no-repeat;
 }
 .thorgate-footer .tf-right .footer-socials li a:hover {
-  border: 1px solid #8b97a6;
+  border: 1px solid white;
 }
 .thorgate-footer .tf-right .footer-socials li.facebook a {
   background-image: url("../images/footer/facebook.svg");

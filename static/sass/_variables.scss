@@ -820,6 +820,5 @@ $pre-scrollable-max-height:   340px !default;
 // Footer
 $screen-md:                         992px;
 $font-open-sans:                    'Open Sans', sans-serif;
-$color-footer-shadow:               rgba(0,0,0,0.03);
-$color-footer-gray-border:          rgba(139, 151, 166, .2);
-$color-footer-gray:                 rgba(139, 151, 166, 1);
+$color-footer-transparent-white:    rgba(255, 255, 255, .2);
+$color-footer-white:                rgba(255, 255, 255, 1);
