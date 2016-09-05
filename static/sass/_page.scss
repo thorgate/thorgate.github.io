@@ -41,9 +41,19 @@ header {
     }
 }
 
+
 .thorgate-footer {
+    margin-top: -12%;
+    padding: 12% 0 0 0;
+    color: $color-footer-white;
+    font-weight: 300;
+    text-align: center;
+    background: url('../images/dark-triangle.svg');
+    background-repeat: no-repeat;
+    background-size: 105% auto;
+    background-position-x: 50%;
     width: 100%;
-    padding: 25px 0;
+    height: 471px;
     font-family: $font-open-sans;
 
     &:after {
@@ -52,15 +62,16 @@ header {
         clear: both;
     }
 
-    @media (min-width: $screen-md) {
-        padding: 28px 0;
-    }
-
     .container {
         width: 100%;
         max-width: 990px;
         padding: 0 30px;
         margin: 0 auto;
+        opacity: .8;
+    }
+
+    .container {
+        padding-top: 180px;
     }
 
     .tf-left {
@@ -82,6 +93,7 @@ header {
             width: 35px;
             height: 35px;
             background-image: url('../images/footer/logo.svg');
+            background-size: cover;
             display: block;
             margin: 0 auto 10px auto;
 
@@ -92,7 +104,7 @@ header {
         }
         .thorgate-copyright {
             text-align: center;
-            color: $color-footer-gray;
+            color: $color-footer-white;
             font-size: 15px;
             line-height: 28px;
             margin: 0;
@@ -130,7 +142,7 @@ header {
                     }
                 }
                 a {
-                    color: $color-footer-gray;
+                    color: $color-footer-white;
                     font-size: 15px;
                     line-height: 28px;
                     text-decoration: none;
@@ -173,14 +185,14 @@ header {
                     text-indent: -99999px;
                     width: 36px;
                     height: 36px;
-                    border: 1px solid $color-footer-gray-border;
+                    border: 1px solid $color-footer-transparent-white;
                     border-radius: 18px;
                     display: block;
                     transition: border .35s ease-in-out;
                     background-repeat: no-repeat;
 
                     &:hover {
-                        border: 1px solid $color-footer-gray;
+                        border: 1px solid $color-footer-white;
                     }
                 }
 
