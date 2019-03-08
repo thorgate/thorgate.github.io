@@ -1500,6 +1500,8 @@ header hr {
   width: 330px;
   margin: 0 auto;
   z-index: -5;
+  text-align: center;
+  font-size: 0;
 }
 .projects::after {
   content: "";
@@ -1516,6 +1518,7 @@ header hr {
   border: 1px solid rgba(219, 219, 219, 0.5);
   box-shadow: 0 7px 20px rgba(0, 0, 0, 0.1);
   background-color: white;
+  text-align: initial;
   transition: background-color 0.2s ease-in-out;
 }
 .project:hover {
@@ -1548,11 +1551,11 @@ header hr {
   margin: 100px auto 0;
 }
 .project.minor {
-  float: left;
   height: 260px;
+  display: inline-block;
 }
 .project.minor .description {
-  max-height: 88px;
+  height: 88px;
   overflow: hidden;
 }
 .project.minor .buttons .btn {

@@ -9,6 +9,8 @@ $project-major-width-tablet: 2 * $project-minor-width + 2 * $projects-gutter-hal
     width: $project-minor-width + 2*$projects-gutter-half;
     margin: 0 auto;
     z-index: -5;
+    text-align: center;
+    font-size: 0;
 }
 
 .project {
@@ -20,6 +22,7 @@ $project-major-width-tablet: 2 * $project-minor-width + 2 * $projects-gutter-hal
     border: 1px solid rgba($gray-lighter, 0.5);
     box-shadow: 0 7px 20px rgba(black, 0.1);
     background-color: white;
+    text-align: initial;
     @include transition(background-color .2s ease-in-out);
 
     &:hover {
@@ -55,11 +58,11 @@ $project-major-width-tablet: 2 * $project-minor-width + 2 * $projects-gutter-hal
     }
 
     &.minor {
-        float: left;
         height: 260px;
+        display:inline-block;
 
         .description {
-            max-height: 88px;
+            height: 88px;
             overflow: hidden;
         }
         .buttons {
