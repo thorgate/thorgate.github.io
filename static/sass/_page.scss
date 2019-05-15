@@ -86,7 +86,7 @@ header {
         @media (min-width: $screen-md) {
             margin: 0;
             float: left;
-            width: 30%;
+            width: 25%;
 
             &:after {
                 content: '';
@@ -126,7 +126,7 @@ header {
     .tf-right {
         @media (min-width: $screen-md) {
             float: right;
-            width: 70%;
+            width: 75%;
             text-align: right;
             font-size: 0;
         }

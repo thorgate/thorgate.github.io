@@ -1342,7 +1342,7 @@ header hr {
   .thorgate-footer .tf-left {
     margin: 0;
     float: left;
-    width: 30%;
+    width: 25%;
   }
   .thorgate-footer .tf-left:after {
     content: '';
@@ -1381,7 +1381,7 @@ header hr {
 @media (min-width: 992px) {
   .thorgate-footer .tf-right {
     float: right;
-    width: 70%;
+    width: 75%;
     text-align: right;
     font-size: 0;
   }
